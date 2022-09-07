@@ -1,0 +1,83 @@
+body{
+  background: #34495e;
+}
+
+.container {
+  width: 385px;
+  padding: 40px;
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #191919;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.new {
+  text-decoration: none;
+  background: none;
+  display: block;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px;
+  outline: none;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.new:hover{
+  background: #2ecc71;
+}
+
+.restart {
+  text-decoration: none;
+  border:20px;
+  background: none;
+  display: block;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px;
+  outline: none;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.restart:hover{
+  background: #2ecc71;
+}
+
+.exit {
+  text-decoration: none;
+  border:20px;
+  background: none;
+  display: block;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px;
+  outline: none;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.exit:hover{
+  background: #2ecc71;
+}

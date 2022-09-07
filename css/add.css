@@ -1,0 +1,43 @@
+body{
+
+  	background: #34495e;
+}
+
+p {
+  margin-top: 7px;
+}
+.container{
+	margin-top: 50px;
+	width: 380px;
+	padding: 40px;
+	padding-bottom: 50px;
+  color: white;
+	position: absolute;
+	border-radius: 15px;
+	top: 315px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+}
+.submit {
+  margin-top: 20px;
+  text-align: right;
+   border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.submit:hover {
+  background: #2ecc71;
+}

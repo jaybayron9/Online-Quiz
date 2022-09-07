@@ -1,0 +1,40 @@
+body{
+  background: #34495e;
+}
+
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #191919;
+  text-align: center;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box a{
+  border:20px;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 40px;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box a:hover{
+  background: #2ecc71;
+}
